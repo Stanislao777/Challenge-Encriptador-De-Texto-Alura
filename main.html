@@ -13,8 +13,8 @@
         </a>
     </header>
     <main>
-        <section>
-            <textarea class="encriptador" placeholder="Ingrese texto aquí"></textarea>
+        <section class="Encriptador">
+            <textarea class="texto__encriptador" placeholder="Ingrese texto aquí"></textarea>
             <div class="encriptador__base">
                 <img class="exclamation symbol" src="/images/signo de exclamación.svg" alt="exclamation symbol">
                 <p class="texto__aviso">Escribir sólo letras minúsculas y sin acentos</p>
@@ -23,6 +23,15 @@
                 <button class="btn-encriptar" type="submit">Encriptar</button>
                 <button class="btn-desencriptar" type="submit">Desencriptar</button>
             </div>
+        </section>
+        <section class="Contenedor">
+            <div class="texto__contenedor">
+                <img class="imagen__inicio" src="/images/imagen inicio.gif" alt="Imagen de muestra">
+                <p class="texto__uno">Ningún mensaje fue encontrado</p>
+                <p class="texto__dos">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <textarea class="evaluar__texto" type="mensaje" readonly></textarea>
+            <button class="btn-copiar" type="button">Copiar</button>
         </section>
     </main>
 </body>
