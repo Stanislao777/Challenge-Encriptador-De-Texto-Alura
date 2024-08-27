@@ -4,7 +4,7 @@ Esta aplicación permite encriptar cualquier texto que esté en minúsculas y si
 Es un proyecto propuesto para el challenge de Alura Latam.
 para ser ejecutado correctamente debe ser inicializado desde maint.html
 
-Las tecnologías que se usó fue
+Las tecnologías que se usuaron:
 - HTML5
 - CSS
 - Flex box
