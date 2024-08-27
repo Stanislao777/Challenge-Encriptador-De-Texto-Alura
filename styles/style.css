@@ -13,6 +13,17 @@ img{
     max-width: 100%;
 }
 
+header{
+    position: absolute;
+    margin: 40px 0px 0px 40px;
+}
+
+.header__logo{
+    display: flex;
+    align-items: flex-start;
+    width: 100px;
+    height: 100px;
+}
 .texto__encriptador{
     font-family: "Nanum Gothic", sans-serif;
     font-weight: 550;
